@@ -8,7 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: palegreen;
+  background-color: #feece2;
 }
 
 html {
@@ -53,10 +53,10 @@ a {
 }
 
 a:hover {
-  color: gray;
+  color: #ffbe98;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: #ffbe98;
 }
 
 .logo {
@@ -64,6 +64,8 @@ a:hover {
 }
 .logo:hover {
   cursor: default;
+  color: #ffbe98;
+  transition: all 300ms ease;
 }
 
 /* Hamburger Menu */
@@ -193,7 +195,7 @@ section {
   text-align: center;
 }
 
-#socials-container {
+.socials-container {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -292,7 +294,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #f7ded0;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -360,7 +362,7 @@ article p {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background: #f7ded0;
 }
 
 .project-img,
