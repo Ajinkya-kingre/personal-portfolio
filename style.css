@@ -66,6 +66,7 @@ a:hover {
   cursor: default;
   color: #ffbe98;
   transition: all 300ms ease;
+  cursor: pointer;
 }
 
 /* Hamburger Menu */
