@@ -296,7 +296,15 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: 2.5rem;
+  top : 1rem
+
+}
+
+.arrow2 {
+  position: absolute;
+  right: -5rem;
+  top : 1rem
+
 }
 
 .details-container {
@@ -310,8 +318,7 @@ section {
 }
 
 .section-container {
-  gap: 4rem;
-  height: 80%;
+  gap: 4rem;;
 }
 
 .highlight {
